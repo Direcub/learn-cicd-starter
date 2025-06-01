@@ -21,7 +21,7 @@ jobs:
       - name: Force Success
         run: go version
 
-      - name: Tests
+      - name: go tests
         run: go test ./... -cover
 
       - name: install gosec
